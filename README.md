@@ -1,6 +1,6 @@
 # tetron-veilid
 
-A bringup tool that installs a `--features footgun-nodeid-target` build of [veilid-server](https://gitlab.com/veilid/veilid) as a local companion daemon for [tetron](https://github.com/ErikAllanKincaid/tetron)'s external-daemon Veilid transport, and builds that binary in the first place -- upstream's own officially distributed apt package does not have this feature enabled, and it is required for the safety mode tetron needs.
+A bringup tool that installs a `--features footgun-nodeid-target` build of [veilid-server](https://gitlab.com/veilid/veilid) as a local companion daemon for [tetron](https://github.com/tetronos/tetron)'s external-daemon Veilid transport, and builds that binary in the first place -- upstream's own officially distributed apt package does not have this feature enabled, and it is required for the safety mode tetron needs.
 
 **Optional and separate from tetron core on purpose**, same relationship `tetron-relay`/`tetron-webui`/`tetron-systray`/`tetron-testsuite` have to core: a genuinely separate, opt-in addon. Nothing about tetron's own behavior changes whether this exists or not.
 
