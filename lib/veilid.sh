@@ -6,7 +6,7 @@
 set -uo pipefail
 
 readonly VEILID_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-readonly TETRON_VEILID_GH_REPO="ErikAllanKincaid/tetron-veilid"
+readonly TETRON_VEILID_GH_REPO="tetronos/tetron-veilid"
 
 readonly TV_CONFIG_DIR="/etc/tetron-veilid"
 readonly TV_STATE_DIR="/var/lib/tetron-veilid"

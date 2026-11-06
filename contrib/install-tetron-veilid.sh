@@ -55,7 +55,7 @@ require_cmd() {
 
 require_cmd curl tar sudo
 
-readonly TETRON_VEILID_GH_REPO="ErikAllanKincaid/tetron-veilid"
+readonly TETRON_VEILID_GH_REPO="tetronos/tetron-veilid"
 readonly TV_CONFIG_DIR="/etc/tetron-veilid"
 readonly TV_STATE_DIR="/var/lib/tetron-veilid"
 readonly TV_CONFIG_FILE="$TV_CONFIG_DIR/veilid-server.conf"
